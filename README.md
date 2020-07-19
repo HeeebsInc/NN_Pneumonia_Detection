@@ -31,7 +31,7 @@ The model began overfitting at about 30 epochs and had F1, AUC, and ROC scores o
 ![ConfusionMatrix](PlotImages/ConfusionMatrix.png)
 
 ##Test on Google Images
-To test the model on outside data, I randomly gathered 17 images from Google and used a probability threshold of .65. As you can see below, the model had a 100% True Negative rate and 56% True Positive Rate. If you download the code in my repo, there is a [folder](PlotImages) where you can try a prediction yourself. All you have to do is download the image, name the file normal or non-normal to remember its label, then run the code.
+To test the model on outside data, I randomly gathered 17 images from Google and used a probability threshold of .65. As you can see below, the model had a 100% True Positive rate and 56% True Negative Rate. If you download the code in my repo, there is a [folder](PlotImages) where you can try a prediction yourself. All you have to do is download the image, name the file normal or non-normal to remember its label, then run the code.
 
 ![GoogleTesting](PlotImages/GoogleTest.png)
 
