@@ -17,8 +17,7 @@ After splitting the train and test set, the class frequencies were as follows
 ![ClassImbalance](PlotImages/ClassImbalance.png)
 
 ## Loss and Validation
-[Code](CNN.ipynb)
-The model began overfitting at about 30 epochs and had F1, AUC, and ROC scores of .935, .972, and .994 respectively.
+The model began overfitting at about 30 epochs and had F1, AUC, and ROC scores of .935, .972, and .994 respectively. [Code](CNN.ipynb)
 
 ![LossValidation](PlotImages/LossValidation.png)
 ## Threshold 
@@ -30,10 +29,17 @@ The model began overfitting at about 30 epochs and had F1, AUC, and ROC scores o
 
 ![ConfusionMatrix](PlotImages/ConfusionMatrix.png)
 
-##Test on Google Images
+## Test on Google Images
 To test the model on outside data, I randomly gathered 17 images from Google and used a probability threshold of .65. As you can see below, the model had a 100% True Positive rate and 56% True Negative Rate. If you download the code in my repo, there is a [folder](PlotImages) where you can try a prediction yourself. All you have to do is download the image, name the file normal or non-normal to remember its label, then run the code.
 
 ![GoogleTesting](PlotImages/GoogleTest.png)
+
+
+## Future Directions
+- Classify the type of Pneumonia (Viral, Fungal, etc.) 
+- Use grey-scale (1D array)
+- Apply SMOTE to alter class imbalances 
+- Use larger images with dimensions of (96,96,3) or (204, 204,4). I initially tried using larger dimensions but my computer was too low. Having larger images can make detection more accurate as there is more detail than the latter.
 
 
 
