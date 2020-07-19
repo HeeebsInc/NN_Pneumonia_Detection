@@ -9,10 +9,12 @@ Visit [my blog](using-ai-to-detect-pneumonia-3ec4601acd07
 ![NNArchitecture](PlotImages/NNArchitecture.png)
 
 ## Train Test Split
-[Code](Train_Test.ipynb)
 
 All of the train, test, and pickle files can be downloaded from my [GoogleDrive](https://drive.google.com/drive/folders/1XsUTrl65JuLQvQeoSGvxqPHvZCWb6tM7?usp=sharing)
-After splitting the train and test set, the class frequencies were as follows
+
+After splitting the train and test set, the class frequencies were as follows: 
+
+[Code](Train_Test.ipynb)
 
 ![ClassImbalance](PlotImages/ClassImbalance.png)
 
