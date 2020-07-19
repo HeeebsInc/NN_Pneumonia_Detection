@@ -20,6 +20,7 @@ After splitting the train and test set, the class frequencies were as follows
 The model began overfitting at about 30 epochs and had F1, AUC, and ROC scores of .935, .972, and .994 respectively. [Code](CNN.ipynb)
 
 ![LossValidation](PlotImages/LossValidation.png)
+![AUC_ROC](PlotImages/AUC_ROC.png)
 ## Threshold 
 [Code](CNN.ipynb)
 
