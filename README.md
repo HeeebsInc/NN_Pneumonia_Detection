@@ -3,6 +3,13 @@
 
 Visit [my blog](using-ai-to-detect-pneumonia-3ec4601acd07
 ) for a more in depth tutorial on how to create a Machine Learning/AI that predicts pneumonia given a lung x-ray image.  
+
+## Data 
+1. [Kaggle CoronaHack](https://www.kaggle.com/praveengovi/coronahack-chest-xraydataset)
+2. [GitHub COVID Dataset](https://github.com/HeeebsInc/covid-chestxray-dataset)
+3. [GoogleDrive](https://drive.google.com/drive/folders/1XsUTrl65JuLQvQeoSGvxqPHvZCWb6tM7?usp=sharing)(contains combined datasets, pickles, and csv with image paths/labels)
+
+
 ## CNN Layers/Architecture
 [Code](CNN.ipynb)
 
