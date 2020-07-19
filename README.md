@@ -9,6 +9,8 @@ Machine Learning/AI for predicting pneumonia given a lung x-ray image.
 ![NNArchitecture](PlotImages/NNArchitecture.png)
 ## Train Test Split
 [Code](Train_Test.ipynb)
+
+All of the train, test, and pickle files can be downloaded from my [GoogleDrive](https://drive.google.com/drive/folders/1XsUTrl65JuLQvQeoSGvxqPHvZCWb6tM7?usp=sharing)
 After splitting the train and test set, the class frequencies were as follows
 ![ClassImbalance](PlotImages/ClassImbalance.png)
 
@@ -17,9 +19,11 @@ After splitting the train and test set, the class frequencies were as follows
 ![LossValidation](PlotImages/LossValidation.png)
 ## Threshold 
 [code](CNN.ipynb)
+
 ![ThresholdTprFpr](PlotImages/ThresholdTprFpr.png)
 ## Confusion Matrix for three thresholds
 [code](CNN.ipynb)
+
 ![ConfusionMatrix](PlotImages/ConfusionMatrix.png)
 
 ##Test on Google Images
