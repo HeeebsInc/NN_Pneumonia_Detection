@@ -4,7 +4,7 @@
 Visit [my blog](using-ai-to-detect-pneumonia-3ec4601acd07
 ) for a more in depth tutorial on how to create a Machine Learning/AI that predicts pneumonia given a lung x-ray image.  
 ## CNN Layers/Architecture
-[code](CNN.ipynb)
+[Code](CNN.ipynb)
 
 ![NNArchitecture](PlotImages/NNArchitecture.png)
 
@@ -17,15 +17,15 @@ After splitting the train and test set, the class frequencies were as follows
 ![ClassImbalance](PlotImages/ClassImbalance.png)
 
 ## Loss and Validation
-[code](CNN.ipynb)
+[Code](CNN.ipynb)
 
 ![LossValidation](PlotImages/LossValidation.png)
 ## Threshold 
-[code](CNN.ipynb)
+[Code](CNN.ipynb)
 
 ![ThresholdTprFpr](PlotImages/ThresholdTprFpr.png)
 ## Confusion Matrix for three thresholds
-[code](CNN.ipynb)
+[Code](CNN.ipynb)
 
 ![ConfusionMatrix](PlotImages/ConfusionMatrix.png)
 
