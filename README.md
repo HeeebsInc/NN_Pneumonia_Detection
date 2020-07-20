@@ -1,8 +1,7 @@
 # Convolutional NN: Pneumonia Detection 
 ![ThresholdTprFpr](PlotImages/Lung.png)
 
-Visit [my blog](using-ai-to-detect-pneumonia-3ec4601acd07
-) for a more in depth tutorial on how to create a Machine Learning/AI that predicts pneumonia given a lung x-ray image.  
+Visit [my blog](https://towardsdatascience.com/using-ai-to-detect-pneumonia-3ec4601acd07) for a more in depth tutorial on how to create a Machine Learning/AI that predicts pneumonia given a lung x-ray image.  
 
 ## Data 
 1. [Kaggle CoronaHack](https://www.kaggle.com/praveengovi/coronahack-chest-xraydataset)
